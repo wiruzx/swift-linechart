@@ -152,7 +152,7 @@ public class LineChart: UIView {
         self.backgroundColor = UIColor.clearColor()
     }
 
-    convenience init() {
+    convenience override init() {
         self.init(frame: CGRectZero)
     }
     
